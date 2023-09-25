@@ -1,10 +1,7 @@
 name: 'TerraformCI'
 
 on:
-  push:
-    branches: [renato/codespce-instructions]
-    paths:
-      - iac/*
+  workflow_dispatch:
 
 jobs:
   terraform:
